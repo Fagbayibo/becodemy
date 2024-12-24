@@ -5,6 +5,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler'
 import Slider from '@/components/onboarding/slider'
 import Slide from '@/components/onboarding/slide'
 
+
 const OnboardingScreen = () => {
   const [index, setIndex] = useState(0)
   const prev = onBoardingSlides[index-1]

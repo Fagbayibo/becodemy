@@ -2,9 +2,9 @@ import { Platform, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect } from 'react'
 import Animated, {runOnJS, useAnimatedStyle, useSharedValue, withSpring} from 'react-native-reanimated'
 import {useVector, snapPoint} from 'react-native-redash'
-import { Side } from './wave'
-import { HEIGHT, LEFT_SNAP_POINTS, MARGIN_WIDTH, MIN_LEDGE, NEXT, PREV, RIGHT_SNAP_POINTS, WIDTH } from '@/configs/constants'
+import { HEIGHT, LEFT_SNAP_POINTS, MARGIN_WIDTH, MIN_LEDGE, NEXT, PREV, RIGHT_SNAP_POINTS, Side, WIDTH } from '@/configs/constants'
 import { Gesture, GestureDetector } from 'react-native-gesture-handler'
+
 
 
 interface SliderProps {

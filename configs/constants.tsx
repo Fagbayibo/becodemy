@@ -68,3 +68,10 @@ export const PREV = WIDTH
 export const NEXT = 0
 export const LEFT_SNAP_POINTS = [MARGIN_WIDTH, PREV];
 export const RIGHT_SNAP_POINTS = [NEXT, WIDTH - MARGIN_WIDTH];
+
+
+export enum Side {
+    LEFT,
+    RIGHT,
+    NONE
+}
